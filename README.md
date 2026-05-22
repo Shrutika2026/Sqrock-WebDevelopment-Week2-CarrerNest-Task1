@@ -206,15 +206,6 @@ git push origin main
 
 ---
 
-# 🌐 Deployment
-
-This project is deployed using **Vercel**.
-
-Live Link:
-
-[CareerNest](https://sqrock-web-development-week2-carrer.vercel.app/)
-
----
 
 # 📈 Acknowledgments
 
