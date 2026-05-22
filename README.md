@@ -207,12 +207,6 @@ git push origin main
 ---
 
 
-# 📈 Acknowledgments
-
-Special thanks to **SQ Rock** for providing the internship opportunity, project guidance, and learning roadmap during the Web Development Internship Program.
-
----
-
 # 🔗 Connect With Me
 
 If you like this project, feel free to ⭐ star the repository and connect with me on LinkedIn.
