@@ -4,7 +4,7 @@
 
 The project focuses heavily on client-side state persistence, role-based access control, and dynamic DOM manipulation using pure vanilla web technologies.
 
-🌐 **Live Demo:** https://sqrock-web-development-week2-carrer.vercel.app/
+🌐 **Live Demo:** [CareerNest](https://sqrock-web-development-week2-carrer.vercel.app/)
 
 ---
 
@@ -212,7 +212,7 @@ This project is deployed using **Vercel**.
 
 Live Link:
 
-https://sqrock-web-development-week2-carrer.vercel.app/
+[CareerNest](https://sqrock-web-development-week2-carrer.vercel.app/)
 
 ---
 
