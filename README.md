@@ -4,11 +4,11 @@
 
 The project focuses heavily on client-side state persistence, role-based access control, and dynamic DOM manipulation using pure vanilla web technologies.
 
-🌐 **Live Demo:** [View CareerNest Live](https://sqrock-web-development-week2-carrer.vercel.app/)
+🌐 **Live Demo:** https://sqrock-web-development-week2-carrer.vercel.app/
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **State & Data Management:** `localStorage` (Simulating a persistent backend database)
@@ -16,9 +16,9 @@ The project focuses heavily on client-side state persistence, role-based access 
 
 ---
 
-## 💡 Core Features
+# 💡 Core Features
 
-### 🔐 1. Authentication & Gateways
+## 🔐 1. Authentication & Gateways
 
 - **Role-Based Access Control (RBAC):** Users can register and log in as either a **Candidate** or an **Employer**.
 - **Dynamic Dashboards:** The UI dynamically adapts based on the logged-in user's role.
@@ -26,7 +26,7 @@ The project focuses heavily on client-side state persistence, role-based access 
 
 ---
 
-### 👤 2. Candidate Portal
+## 👤 2. Candidate Portal
 
 - **Job Discovery:** Browse, search, and filter through actively posted jobs.
 - **Application System:** Apply for jobs via an integrated application form, including uploading/linking a resume.
@@ -35,14 +35,14 @@ The project focuses heavily on client-side state persistence, role-based access 
 
 ---
 
-### 🏢 3. Employer Portal
+## 🏢 3. Employer Portal
 
 - **Job Management (CRUD):** Post new job openings, edit existing job details, and delete inactive listings.
 - **Applicant Pipeline:** View all candidates who applied for a specific job, review their profiles/resumes, and accept or reject their applications.
 
 ---
 
-### 💾 4. Mock Backend (`localStorage` Architecture)
+## 💾 4. Mock Backend (`localStorage` Architecture)
 
 To keep data persistent across page reloads without a traditional backend database, `localStorage` is used to store:
 
@@ -54,78 +54,196 @@ To keep data persistent across page reloads without a traditional backend databa
 
 # 📂 Project Structure
 
-The project follows a clean, lightweight, single-page application (SPA) architecture driven by conditional rendering:
-
 ```text
 ├── assets/
-│   └── CarrerNest.png     # Project logos and image media assets
-├── .gitignore             # Files to exclude from version control
-├── index.html             # Main HTML entry point and page skeleton
-├── README.md              # Project documentation (This file)
-├── script.js              # JavaScript engine (Auth, Routing, CRUD operations)
-└── style.css              # Custom responsive stylesheet (Modern UI/UX)
+│   └── CarrerNest.png
+├── .gitignore
+├── index.html
+├── README.md
+├── script.js
+└── style.css
 ```
 
 ---
 
-# 🚀 Local Installation & Setup
+# 🚀 Local Setup & Development Guide
 
-Follow these simple steps to run CareerNest locally on your machine.
-
-## 📋 Prerequisites
-
-You only need a modern web browser installed such as:
-
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Safari
+Follow these steps to download the repository, run it on your own PC, and make your own changes to the code.
 
 ---
 
-## ⚙️ Setup Instructions
+# 📋 Prerequisites
 
-### 1️⃣ Clone the Repository
+You only need:
+
+- A modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, or Safari)
+- A code editor (Recommended: Visual Studio Code)
+- Git installed on your system (Optional but recommended)
+
+---
+
+# 🛠️ 1. Download the Project from GitHub
+
+## ✅ Option A: Using Git (Recommended)
+
+Open **Command Prompt**, **Terminal**, or **Git Bash** and run:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-```
+# Clone the repository
+git clone https://github.com/Shrutika2026/Sqrock-WebDevelopment-Week2-CarrerNest_AdminAnalyticsPortal-Task2.git
 
-(Alternatively, you can download the ZIP file of the source code.)
+# Open the project folder
+cd Sqrock-WebDevelopment-Week2-CarrerNest_AdminAnalyticsPortal-Task2
+```
 
 ---
 
-### 2️⃣ Navigate to the Project Folder
+## ✅ Option B: Download ZIP File
+
+1. Open your GitHub repository.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the ZIP file anywhere on your computer.
+
+---
+
+# 💻 2. Open the Project in VS Code
+
+1. Open **Visual Studio Code**
+2. Click:
+
+```text
+File → Open Folder
+```
+
+3. Select the project folder.
+
+---
+
+# ✏️ 3. Edit the Project Files
+
+You can modify:
+
+| File | Purpose |
+|------|----------|
+| `index.html` | Structure and layout |
+| `style.css` | Styling, colors, responsiveness |
+| `script.js` | Logic, authentication, CRUD operations |
+| `assets/` | Images and media files |
+
+---
+
+# ▶️ 4. Run the Project Locally
+
+## ✅ Method 1: Using VS Code Live Server (Recommended)
+
+### Install Live Server Extension
+
+1. Open VS Code
+2. Go to Extensions
+3. Search:
+
+```text
+Live Server
+```
+
+4. Install the extension by **Ritwick Dey**
+
+---
+
+### Start the Project
+
+1. Open `index.html`
+2. Right-click inside the file
+3. Click:
+
+```text
+Open with Live Server
+```
+
+OR
+
+Click the **Go Live** button in the bottom-right corner of VS Code.
+
+---
+
+### Local URL Example
+
+The project will open automatically in your browser:
+
+```text
+http://127.0.0.1:5500/index.html
+```
+
+---
+
+## ✅ Method 2: Run Directly in Browser
+
+1. Open the project folder
+2. Double-click `index.html`
+
+The project will open in your browser using a `file://` path.
+
+---
+
+# 🔄 5. Save Changes & Push Updates to GitHub
+
+After making changes:
 
 ```bash
-cd your-repo-name
+# Check changed files
+git status
+
+# Add files
+git add .
+
+# Commit changes
+git commit -m "Updated CareerNest project"
+
+# Push to GitHub
+git push origin main
 ```
 
 ---
 
-### 3️⃣ Run the Project
+# 🌐 Deployment
 
-#### ✅ Option A (Recommended)
+This project is deployed using **Vercel**.
 
-Right-click `index.html` and select **Open with Live Server** (if using VS Code).
+Live Link:
 
-#### ✅ Option B
-
-Simply double-click the `index.html` file to open it directly in any web browser.
+https://sqrock-web-development-week2-carrer.vercel.app/
 
 ---
 
 # 📈 Acknowledgments
 
-A special thanks to the team at **SQ Rock** for providing the structured guidance and foundational roadmap during my Web Development Internship.
+Special thanks to **SQ Rock** for providing the internship opportunity, project guidance, and learning roadmap during the Web Development Internship Program.
 
 ---
 
 # 🔗 Connect With Me
 
-If you like this project, feel free to drop a ⭐ on the repository!
+If you like this project, feel free to ⭐ star the repository and connect with me on LinkedIn.
 
-Happy Coding! 🚀
+Happy Coding 🚀
 
 ---
 
+# ⚠️ Important Note
+
+Your image file is currently named:
+
+```text
+CarrerNest.png
+```
+
+(With double `r`)
+
+If you later rename it to:
+
+```text
+CareerNest.png
+```
+
+make sure to update the filename everywhere in your project to avoid broken image paths.
